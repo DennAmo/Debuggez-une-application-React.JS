@@ -1,0 +1,7 @@
+ajout de valeur par défaut à eventcard
+
+ajout de +1 a l'index des mois pour avoir le bon mois
+
+modification alt event slider + vérif
+
+modification key + readonly pour input
