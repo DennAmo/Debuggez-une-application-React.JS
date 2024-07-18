@@ -1,7 +1,7 @@
-ajout de valeur par défaut à eventcard
-
-ajout de +1 a l'index des mois pour avoir le bon mois
+ajout de +1 a l'index des mois pour avoir le bon mois + inversion la façon don les mois sont affiché, pour avoir le bon ordre
 
 modification alt event slider + vérif
 
-modification key + readonly pour input
+modification key div + readonly pour input
+
+ajout de onSuccess sur l'envoir du form

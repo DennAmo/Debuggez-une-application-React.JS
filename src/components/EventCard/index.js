@@ -4,11 +4,11 @@ import { getMonth } from "../../helpers/Date";
 import "./style.scss";
 
 const EventCard = ({
-  imageSrc = "test.jpg", 
-  imageAlt = "Event Alt",
+  imageSrc, 
+  imageAlt,
   date = new Date(),
-  title = "Event Title",
-  label = "Event Label",
+  title,
+  label,
   small = false,
   ...props
 }) => (
