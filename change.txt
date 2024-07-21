@@ -4,4 +4,14 @@ modification alt event slider + vérif
 
 modification key div + readonly pour input
 
-ajout de onSuccess sur l'envoir du form
+ajout de onSuccess sur l'envoie du form
+
+ajout des id au div des sections respectif aux liens du menu
+
+update index.html language et description
+
+boucle for pour le tri des réalisations
+
+ajout de prop pour quand on selectionne une catégorie
+
+ajout de liens pour les icones socialmedia

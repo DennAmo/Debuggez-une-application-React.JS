@@ -31,7 +31,7 @@ const Page = () => {
         <Slider />
       </section>
       <section className="ServicesContainer">
-        <h2 className="Title">Nos services</h2>
+        <h2 id="nos-services" className="Title">Nos services</h2>
         <p>Nous organisons des événements sur mesure partout dans le monde</p>
         <div className="ListContainer">
           <ServiceCard imageSrc="/images/priscilla-du-preez-Q7wGvnbuwj0-unsplash1.png">
@@ -59,12 +59,12 @@ const Page = () => {
           </ServiceCard>
         </div>
       </section>
-      <section className="EventsContainer">
+      <section id="nos-realisations" className="EventsContainer">
         <h2 className="Title">Nos réalisations</h2>
         <EventList />
       </section>
       <section className="PeoplesContainer">
-        <h2 className="Title">Notre équipe</h2>
+        <h2 id="notre-equipe" className="Title">Notre équipe</h2>
         <p>Une équipe d’experts dédiés à l’ogranisation de vos événements</p>
         <div className="ListContainer">
           <PeopleCard
@@ -139,16 +139,16 @@ const Page = () => {
         <div>01 23 45 67 89</div>
         <div>contact@724events.com</div>
         <div>
-          <a href="#twitch">
+        <a href="https://www.twitch.tv/" target="blank" rel="noreferrer">
             <Icon name="twitch" />
           </a>
-          <a href="#facebook">
-            <Icon name="facebook" />
+          <a href="https://www.facebook.com/" target="blank" rel="noreferrer">
+          <Icon name="facebook" />
           </a>
-          <a href="#twitter">
+          <a href="https://twitter.com/" target="blank" rel="noreferrer">
             <Icon name="twitter" />
           </a>
-          <a href="#youtube">
+          <a href="https://www.youtube.com/" target="blank" rel="noreferrer">
             <Icon name="youtube" />
           </a>
         </div>
