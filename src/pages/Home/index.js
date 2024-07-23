@@ -18,10 +18,6 @@ const Page = () => {
     new Date(evtB.date) - new Date(evtA.date)
   )[0];
 
-  if (!data || !data.events || data.events.length === 0) {
-    return <div>Aucune donnée disponible</div>;
-  }
-
   return <>
     <header>
       <Menu />
