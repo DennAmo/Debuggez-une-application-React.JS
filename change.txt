@@ -30,8 +30,18 @@ ajout des test <Home />
 
 ajout des data-testid + changement du label boom
 
+ajout de fermeture de modal lorsque l'on clique en dehors et appuie sur échap
+
+ajout de pouvoir dérouler la collapse en cliquant sur tout l'ensemble et non seulement l'icone de fleche
 
 
+
+// TODO //
+
+1. slider: index bug, ordre evenement
+2. réalisation: catégorie + mois
+3. formulaire: confirmation d'envoie
+4. footer derniere prestation
 
 
 

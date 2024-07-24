@@ -21,10 +21,17 @@ const Select = ({
     setCollapsed(newValue);
   };
   
+  const handleContainerClick = (e) => {
+    if (e.target.tagName.toLowerCase() !== 'button') {
+      e.preventDefault();
+      setCollapsed(!collapsed);
+    }
+  };
+
   return (
     <div className={`SelectContainer ${type}`} data-testid="select-testid">
       {label && <div className="label">{label}</div>}
-      <div className="Select">
+      <div className="Select" onClick={handleContainerClick} role="button" tabIndex="0">
         <ul>
           <li className={collapsed ? "SelectTitle--show" : "SelectTitle--hide"}>
             {value || (!titleEmpty && "Toutes")}
