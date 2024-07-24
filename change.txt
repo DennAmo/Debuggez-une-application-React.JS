@@ -15,3 +15,91 @@ boucle for pour le tri des réalisations
 ajout de prop pour quand on selectionne une catégorie
 
 ajout de liens pour les icones socialmedia
+
+ajout de required form
+
+Test iconFacebook
+
+completion test facebook
+
+refonte du test Date
+
+update css attribute name to fit react
+
+ajout des test <Home />
+
+ajout des data-testid + changement du label boom
+
+
+
+
+
+
+
+// HELPER //
+
+toBe(value)
+Vérifie si la valeur reçue est strictement égale à la valeur attendue (utilise ===).
+
+toEqual(value)
+Vérifie si les valeurs reçues et attendues sont équivalentes. Utilisé pour comparer des objets et des tableaux.
+
+toBeNull()
+Vérifie si la valeur reçue est null.
+
+toBeUndefined()
+Vérifie si la valeur reçue est undefined.
+
+toBeDefined()
+Vérifie si la valeur reçue n’est pas undefined.
+
+toBeTruthy()
+Vérifie si la valeur reçue est considérée comme true en contexte booléen.
+
+toBeFalsy()
+Vérifie si la valeur reçue est considérée comme false en contexte booléen.
+
+toContain(item)
+Vérifie si un tableau ou une chaîne de caractères contient un élément spécifique.
+
+toHaveLength(length)
+Vérifie si un tableau ou une chaîne a une longueur spécifique.
+
+toMatch(regexp | string)
+Vérifie si une chaîne correspond à une expression régulière ou une sous-chaîne.
+
+toThrow()
+Vérifie si une fonction lance une exception.
+
+toHaveProperty(keyPath, value)
+Vérifie si un objet a une propriété spécifique avec une valeur optionnelle.
+
+equal(value)
+Vérifie si la valeur reçue est strictement égale à la valeur attendue.
+
+deep.equal(value)
+Vérifie si les objets ou tableaux sont profondément égaux.
+
+null
+Vérifie si la valeur reçue est null.
+
+undefined
+Vérifie si la valeur reçue est undefined.
+
+true
+Vérifie si la valeur reçue est true.
+
+false
+Vérifie si la valeur reçue est false.
+
+include(item)
+Vérifie si un tableau ou une chaîne de caractères contient un élément spécifique.
+
+lengthOf(length)
+Vérifie si un tableau ou une chaîne a une longueur spécifique.
+
+match(regexp | string)
+Vérifie si une chaîne correspond à une expression régulière ou une sous-chaîne.
+
+throw(errMsg)
+Vérifie si une fonction lance une exception avec un message spécifique.
