@@ -99,7 +99,7 @@ const Page = () => {
         <h2 className="Title">Contact</h2>
         <Modal
           Content={
-            <div className="ModalMessage--success">
+            <div className="ModalMessage--success ModalMessage--error">
               <div>Message envoyé !</div>
               <p>
                 Merci pour votre message nous tâcherons de vous répondre dans

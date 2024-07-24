@@ -34,6 +34,7 @@ ajout de fermeture de modal lorsque l'on clique en dehors et appuie sur échap
 
 ajout de pouvoir dérouler la collapse en cliquant sur tout l'ensemble et non seulement l'icone de fleche
 
+correction du test des events + test modal et retrait de ' .only '
 
 
 // TODO //
